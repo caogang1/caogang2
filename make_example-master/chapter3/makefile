@@ -8,4 +8,6 @@ vari_b = "vari b from makefile"
 all:
 	@echo $(vari_a)
 	@echo $(vari_b)
-
+include inc_a
+aim_2:envir_1
+	@echo "this is " $@
